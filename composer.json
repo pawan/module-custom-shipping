@@ -1,0 +1,24 @@
+{
+  "name": "pawan/module-custom-shipping",
+  "description": "This module will add a custom shipping method for magento 2",
+  "type": "magento2-module",
+  "keywords": ["Magento2","Shipping","Custom shipping"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pawan Kumar Parmar",
+      "email": "mail@pawan.info"
+    }
+  ],
+  "support": {
+        "issues": "https://github.com/module-custom-shipping/issues"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pawan\\CustomShipping\\": ""
+    }
+  }
+}
